@@ -1,0 +1,5 @@
+---
+applications:
+ - name: starter-google-oauth2
+   host: starter-google-oauth2
+   memory: 256M

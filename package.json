@@ -1,0 +1,30 @@
+{
+  "name": "starter-google-oauth2",
+  "main": "server.js",
+  "description": "Starter NodeJS OAUTH2.0 Application authenticating with Google and accessing Google Drive",
+  "version": "0.0.1",
+  "private": false,
+  "engines": {
+    "node": "6.*"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justinmccoy/starter-google-oauth2"
+  },
+  "dependencies": {
+    "googleapi": "^1.0.2",
+    "passport": "^0.4.0",
+    "passport-google-oauth20": "^1.0.x",
+    "body-parser": "^1.17.x",
+    "express": "^4.15.x",
+    "morgan": "",
+    "cookie-parser": "",
+    "express-session": "",
+    "ejs": ""
+  },
+  "author": "Justin McCoy",
+  "license": "Apache-2.0"
+}
